@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #maindiv{
+            width: 100vw;
+            height: 100vh;
+            /* background-color: gray; */
+            overflow: hidden;
+        }
+        #mainnavbar{
+            width: 100vw;
+            height: 10.5%;
+            /* background-color: darkmagenta; */
+            display: flex;
+        }
+        #myntlogo{
+            width: 8.5vw;
+            height: 100%;
+            /* background-color:crimson ; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #myntralogo{
+            width: 8vw;
+            height: 3.5vw;
+        }
+        #Namespart{
+            height: 100%;
+            width: 36.7%;
+            /* background-color:goldenrod; */
+            display: flex;
+        } 
+        .ll{
+            height:100%;
+            width: 100%;
+            /* border: 2px solid black; */
+            /* background-color: fuchsia; */
+        }
+        .ll{
+            display: flex;
+            text-align: center;
+            /* align-items: center; */
+            /* align-self: center; */
+            /* align-content: center; */
+        }
+        #xx{
+            height: 100%;
+            width: 75%;
+        }
+        #yy{
+            height: 100%;
+            width: 120%;
+        }
+        #zz{
+            height: 100%;
+            width: 80%;
+        }
+        #za{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid black; */
+        }
+        #zb{
+            height: 100%;
+            width: 85%;
+        }
+        #zc{
+            height: 100%;
+            width: 80%;
+        }
+        #aa,#bb,#cc,#dd,#ee,#ff{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* background-color: blue; */
+        }
+        #aaa{
+            height: 100%;
+            width: 100%;
+            background-color:transparent;
+            display: flex;
+        }
+        #bbb{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+        }
+        #ccc{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+        }
+        #ddd{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+        }
+        #eee{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+        }
+        #fff{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+        }
+        #aaaa{
+            /* padding-top: -8px; */
+            /* padding-left: 13px; */
+            /* padding: 5px; */
+            height: 95%;
+            width: 180%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            /* border: 2px solid black; */
+            background-color:white;
+            /* text-align: center; */
+            /* align-items: center;
+            justify-self: center; */
+        }
+        #bbbb{
+            height: 95%;
+            width: 100%;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #cccc{
+            height: 95%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #dddd{
+            height: 95%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #eeee{
+            height: 95%;
+            width: 100%;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #ffff{
+            height: 95%;
+            width: 100%;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #aa:hover #aaa{
+            background-color:rgba(244, 43, 43, 0.803);
+        }
+        #bb:hover #bbb{
+            background-color:rgba(255, 0, 255, 0.923);
+        }
+        #cc:hover #ccc{
+            background-color: rgba(255, 127, 80, 0.963);
+        }
+        #dd:hover #ddd{
+            background-color:rgba(255, 217, 0, 0.936);
+        }
+        #ee:hover #eee{
+            background-color: rgba(26, 178, 95, 0.932);
+        }
+        #ff:hover #fff{
+            background-color:rgba(244, 43, 43, 0.803) ;
+        }
+        /* h3{
+            padding-top: 25px;
+            border: 2px solid black;
+        } */
+        #search{
+            width: 40%;
+            height: 100%;
+            /* background-color: darkturquoise; */
+            display: flex;
+            align-items: center;
+            /* justify-items: center; */
+            justify-content: center;
+        }
+        #user{
+            width: 15%;
+            height: 100%;
+            /* background-color: deeppink; */
+            display: flex;
+            justify-content: space-around;
+        }
+        #se{
+            width: 92%;
+            height: 40%;
+            /* background-color: cornflowerblue; */
+            border-radius: 5px;
+            display: flex;
+        }
+        #mir{
+            width: 5%;
+            height: 100%;
+            border-top-left-radius: 5px;
+            /* border-bottom-right-radius: 5px; */
+            border-bottom-left-radius: 5px;
+            
+            /* border-top:2px solid black ;
+            border-left: 1px solid black; 
+             border-bottom: 2px solid black; */
+             background-color: rgba(156, 151, 151, 0.714);
+            /* border: 0.5px solid black;
+            background-color: rgba(255, 255, 255, 0.714);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aquamarine; */
+        }
+        #see{
+            width: 100%;
+            height: 100%;
+            background-color: darkgray;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            /* border-bottom-left-radius: 10px; */
+        }
+        #imgmir{
+            background-color:rgba(255, 255, 255, 0.714) ;
+            
+            width: 28px;
+            height: 35px;
+            /* border-radius: 5px; */
+            border-top-left-radius: 5px;
+            /* border-bottom-left-radius: 5px; */
+            border-bottom-left-radius: 10px;
+        }
+        #iii{
+            /* border-top: 0.5px solid black ; */
+            /* border: 2px solid black; */
+            background-color:rgba(255, 255, 255, 0.714);
+            width: 100%;
+            height: 107%;
+            outline: none;
+            border: none;
+            /* border: none; */
+            border-left: none;
+            /* border-top: none; */
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            letter-spacing: 1px;
+            font-size: 13px;
+            color: grey;
+            /* font-family: 'Courier New', Courier, monospace; */
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #parts{
+            padding-left: 16px;
+            height: 100%;
+            width: 90%;
+            /* background-color: blue; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            /* justify-items: center; */
+            /* align-items: center;
+            justify-content: center; */
+        }
+        .lm{
+            width:95px;
+            height: 100%;
+            /* background-color: bisque; */
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            /* align-content: center; */
+            align-items: center;
+        }
+        /* #kk{
+            width: 25px;
+            height: 25px;
+            align-self: center;
+        } */
+        #p{
+            height: 100%;
+            width: 100%;
+            /* background-color: darkgreen; */
+            display: flex;
+        }
+        #q{
+            height: 100%;
+            width: 100%;
+            /* background-color: darkslategray; */
+            display: flex;
+        }
+        #r{
+            height: 94%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p:hover #q{
+            background-color: rgba(244, 43, 43, 0.803);
+        }
+        #userimg{
+            height: 35%;
+            width: 38%;
+            position: relative;
+            top: -5px; 
+            left: 15px;
+        }
+        #namepos{
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            top: 18.5px;
+            right: 15px;
+            text-align: center;
+        }
+        #oo,#jj{
+            text-decoration: none;
+        }
+        #namepo{
+            /* font-family: 'Times New Roman', Times, serif; */
+            position: relative;
+            top: 14px;
+            right: 15px;
+        }
+        #seconddiv{
+            height: 80%;
+            width: 100%;
+            /* background-color: darkmagenta; */
+            overflow: hidden;
+        }
+        #vid{
+            position: relative;
+            /* left: 30px; */
+            right: 100px;
+            bottom: 130px;
+            filter: brightness(50%);
+        }
+        #hovnamemen{
+            width: 76.6%;
+            height: 60%;
+            background-color: snow;
+            position: absolute;
+            top: 78px;
+            left: 130px;
+            /* display: none; */
+            z-index: -1;
+            transition: z-index 0.5s;
+        }
+#aa:hover #hovnamemen{
+    z-index: 1;
+}
+#hovnamewomen{
+            width: 76.6%;
+            height: 60%;
+            background-color: snow;
+            position: absolute;
+            top: 78px;
+            left: 130px;
+            /* display: none; */
+            z-index: -1;
+            transition: z-index 0.8s;
+        }
+#bb:hover #hovnamewomen{
+    z-index: 1;
+}
+#hovnamekids{
+            width: 76.6%;
+            height: 60%;
+            background-color: snow;
+            position: absolute;
+            top: 78px;
+            left: 130px;
+            /* display: none; */
+            z-index: -1;
+            transition: z-index 0.8s;
+        }
+    #cc:hover #hovnamekids{
+        z-index: 1;
+    }
+    #hovnamehome{
+            width: 76.6%;
+            height: 60%;
+            background-color: snow;
+            position: absolute;
+            top: 78px;
+            left: 130px;
+            /* display: none; */
+            z-index: -1;
+            transition: z-index 0.8s;
+            display: flex;
+            /* flex-direction: column; */
+        }
+    #dd:hover #hovnamehome{
+        z-index: 1;
+    }
+    #hovnamebeauty{
+            width: 76.6%;
+            height: 60%;
+            background-color: snow;
+            position: absolute;
+            top: 78px;
+            left: 130px;
+            /* display: none; */
+            z-index: -1;
+            transition: z-index 0.8s;
+        }
+        #ee:hover #hovnamebeauty{
+            z-index: 1;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h3{
+            font-size: 14px;
+        }
+        #namepo1{
+            padding-top: 20px;
+        }
+        #sss{
+            /* background-color: blueviolet; */
+            width:90px;
+            height: 100%;
+        }
+        #phh{
+            height: 45px;
+            width: 45px;
+            /* background-color: deeppink; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: ; */
+            justify-items: center;
+            align-items: center;
+        }
+        #like{
+            height:68%;
+            width:68%;
+            /* position: relative;
+            top:-7px;
+            /* right: 20px; */
+            /* left: 10px;  */
+            /* filter: drop-shadow(50px 5px 5px black); */
+            /* border-image: 2px ; */
+        }
+        #p:hover #hovnamebeauty{
+            z-index: 1;
+        }
+        #fof{
+            height: 380px;
+            width: 18%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 78px;
+            right: 24px;
+            z-index: -1;
+        }
+        #p:hover #fof{
+            z-index: 1;
+        }
+        #zz{
+            width:100% ;
+            height:100% ;
+            /* background-color: darkslategrey; */
+            display: flex;
+            /* flex-direction: column; */
+        }
+       
+        #xc{
+            width: 25%;
+            height: 100%;
+            background-color: white;
+        }
+        #xd{
+            width: 25%;
+            height: 100%;
+            background-color: white;
+        }
+        #xe{
+            width: 22%;
+            height: 100%;
+            background-color: white;
+        }
+        #xf{
+            width: 28%;
+            height: 100%;
+            background-color: white;
+        }
+        #xk{
+            width: 24%;
+            height: 100%;
+            background-color:white;
+            display: flex;
+            justify-content: left;
+        }
+        #ya{
+            width: 100%;
+            text-align: justify;
+            list-style: none;
+            font-size: 15px;
+            padding-left: 35px;
+
+            /* position: fixed; */
+            /* margin: 20px; */
+           
+            /* text-align: center; */
+        }
+       #yb{
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-family: 'Castoro Titling', cursive; */
+/* font-family: 'Rajdhani', sans-serif; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+        
+        /* display: block */
+        color:rgba(244, 43, 43, 0.803) ;
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 15px;
+        /* font-family: 'Castoro Titling', cursive; */
+        /* border: 1px black solid; */
+        /* width: 20px; */
+       }
+       .yc{
+        padding: 3px;
+        /* border: 1px solid black; */
+        width: 70%;
+        height: 18px;
+        /* overflow: hidden; */
+       }
+       .yc:hover{
+        font-size: 15.2px;
+        font-weight: bold;
+        /* letter-spacing: 2px; */
+        /* width: 100%; */
+        text-align: left;
+        width: 80%;
+        /* overflow: hidden; */
+        /* transform: skew(20deg); */
+        /* transform: scaleX(1.2)scaleY(1.3); */
+        /* transform: scalex(180deg,2); */
+        /* transform: scaleZ(1.1); */
+        /* transform: scaleY(1.1); */
+        /* transform: scalex(1.2); */
+        /* scale: 1.15; */
+        /* scale: 2,1; */
+       }
+       #wb{
+        padding-top: 10px;
+        font-size: 17px;
+        color:rgba(244, 43, 43, 0.803) ;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        /* margin-top: 20px; */
+        /* display: flex; */
+        /* flex-direction: row; */
+       }
+       #va{
+        padding-top: 10px;
+        font-size: 17px;
+        color:rgba(255, 0, 255, 0.923);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+       }
+       #vb{
+        padding-top: 10px;
+        font-size: 17px;
+        color:rgba(255, 127, 80, 0.963);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+
+       }
+       #vc{
+        padding-top: 10px;
+        font-size: 17px;
+        color:rgba(255, 217, 0, 0.936);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+
+       }
+       #vd{
+        padding-top: 10px;
+        font-size: 17px;
+        color:rgba(26, 178, 95, 0.932);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+       }
+       #wa{
+        margin-top: 10px;
+        width: 70%;
+        filter: brightness(110%);
+        /* padding-top: 20px; */
+       }
+       .yd{
+        padding: 3px;
+        width: 100%;
+        
+        /* border: 1px solid black; */
+       }
+      .yd:hover{
+        font-size: 15.2px;
+        font-weight: bold;
+        /* text-align: start; */
+
+      }
+    
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="mainnavbar">
+            <div id="myntlogo">
+                <img id="myntralogo" src="../../../../Download/logo-myntra-41466.png">
+            </div>
+            <div id="Namespart">
+                <div class="ll" id="za"><div id="aa"><div id="aaa"><a href="#"><div id="aaaa"><h3 class="ool">MEN</h3></div></a></div><diV id="hovnamemen">
+                    <div id="zz">
+                        <div id="xk">
+                            
+                            <ul id="ya">
+                                <h3 id="yb">Topwear</h3>
+                                <a href="https://www.myntra.com/men-tshirts" target="_blank"><li class="yc" id="">T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-casual-shirts" target="_blank" ><li class="yc" id="">Casual Shirts</li></a>
+                                <a href="https://www.myntra.com/men-formal-shirts" target="_blank"><li class="yc" id="">Formal Shirts</li></a>
+                                <a href="https://www.myntra.com/men-sweatshirts" target="_blank"><li class="yc" id="">Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sweaters" target="_blank"><li class="yc" id="">Sweaters</li></a>
+                                <a href="https://www.myntra.com/men-jackets" target="_blank"><li class="yc" id="">Jackets</li></a>
+                                <a href="https://www.myntra.com/men-blazers" target="_blank"><li class="yc" id="">Blazers & Coats</li></a>
+                                <a href="https://www.myntra.com/men-suits" target="_blank"><li class="yc" id="">Suits</li></a>
+                                <a href="https://www.myntra.com/rain-jacket" target="_blank"><li class="yc" id="">Rain Jackets</li></a>
+                                <!-------------------------------------->
+                                
+                                <hr id="wa">
+                                <h3 id="wb">Indian & Festive Wear</h3>
+                                <a href="https://www.myntra.com/men-kurtas"target="_blank"><li class="yd">Kurtas & Kurta Sets</li></a>
+                                <a href="https://www.myntra.com/sherwani"target="_blank"><li class="yd">Sherwanis</li></a>
+                                <a href="https://www.myntra.com/nehru-jackets"target="_blank"><li class="yd">Nehru Jackets</li></a>
+                                <a href="https://www.myntra.com/dhoti"target="_blank"><li class="yd">Dhotis</li></a>
+                            </ul>
+                        </div>
+                        <div id="xc">
+                            <ul id="ya">
+                                <h3 id="yb">Bottomwear</h3>
+                                <a href="https://www.myntra.com/men-jeans"target="_blank"><li class="yd" id="">Jeans</li></a>
+                                <a href="https://www.myntra.com/men-casual-trousers"target="_blank"><li class="yd" id="">Casual Trousers</li></a>
+                                <a href="https://www.myntra.com/men-formal-trousers"target="_blank"><li class="yd" id="">Formal Trousers</li></a>
+                                <a href="https://www.myntra.com/mens-shorts"target="_blank"><li class="yd" id="">Shorts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants"target="_blank"><li class="yd" id="">Track Pants & Joggers</li></a>
+                                <hr id="wa">
+                                <h3 id="yb">Innerwear & Sleepwear</h3>
+                                <a href="https://www.myntra.com/men-briefs-and-trunks"target="_blank"><li class="yd" id="">Briefs & Trunks</li></a>
+                                <a href="https://www.myntra.com/men-boxers"target="_blank"><li class="yd" id="">Boxers</li></a>
+                                <a href="https://www.myntra.com/men-innerwear-vests"target="_blank"><li class="yd" id="">Vests</li></a>
+                                <a href="https://www.myntra.com/men-nightwear"target="_blank"><li class="yd" id="">Sleepwear & Loungewear</li></a>
+                                <a href="https://www.myntra.com/men-thermals"target="_blank"><li class="yd" id="">Thermals</li></a>
+                                <hr id="wa">
+                                <h3 id="wb">Plus Size</h3>
+                        </ul>
+                            </div>
+                        <div id="xd">
+                            <ul id="ya">
+                                <h3 id="yb">Footwear</h3>
+                                <a href="https://www.myntra.com/men-casual-shoes"target="_blank"><li class="yc" id="">Casual Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-shoes"target="_blank"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-formal-shoes"target="_blank"><li class="yc" id="">Formal Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sneakers"target="_blank"><li class="yc" id="">Sneakers</li></a>
+                                <a href="https://www.myntra.com/men-sandals"target="_blank"><li class="yc" id="">Sandals & Floaters</li></a>
+                                <a href="https://www.myntra.com/men-flip-flops"target="_blank"><li class="yc" id="">Flip Flops</li></a>
+                                <a href="https://www.myntra.com/men-socks"target="_blank"><li class="yc" id="">Socks</li></a>
+                                <hr id="wa">
+                                <h3 id="yb">Personal Care & Grooming</h3>
+                                <h3 id="yb">Sunglasses & Frames</h3>
+                                <h3 id="yb">Watches</h3>
+                            </ul>
+                        </div>
+                        <div id="xe">
+                            <ul id="ya">
+                                <h3 id="yb">Sports & Active Wear</h3>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-sandals"><li class="yc" id="">Sports Sandals</li></a>
+                                <a href="https://www.myntra.com/men-sports-wear-tshirts"><li class="yc" id="">Active T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants-shorts"><li class="yc" id="">Track Pants & Shorts</li></a>
+                                <a href="https://www.myntra.com/men-tracksuits"><li class="yc" id="">Tracksuits</li></a>
+                                <a href="https://www.myntra.com/men-sports-jackets"><li class="yc" id="">Jackets & Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sports-accessories"><li class="yc" id="">Sports Accessories</li></a>
+                                <a href="https://www.myntra.com/men-swimwear"><li class="yc" id="">Swimwear</li></a>
+                                <hr id="wa">
+                                <h3 id="yb">Gadgets</h3>
+                                <a href="https://www.myntra.com/smart-wearables"><li class="yc" id="">Smart Wearables</li></a>
+                                <a href="https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands"><li class="yc" id="">Fitness Gadgets</li></a>
+                                <a href="https://www.myntra.com/headphones"><li class="yc" id="">Headphones</li></a>
+                                <a href="https://www.myntra.com/speakers"><li class="yc" id="">Speakers</li></a>
+                        </ul>
+                        </div>
+                        <div id="xf">
+                            <ul id="ya">
+                                <h3 id="yb">Fashion Accessories</h3>
+                                <a href="https://www.myntra.com/men-wallets"><li class="yc" id="">Wallets</li></a>
+                                <a href="https://www.myntra.com/men-belts"><li class="yc" id="">Belts</li></a>
+                                <a href="https://www.myntra.com/perfumes"><li class="yc" id="">Perfumes & Body Mists</li></a>
+                                <a href="https://www.myntra.com/trimmer"><li class="yc" id="">Trimmers</li></a>
+                                <a href="https://www.myntra.com/deodorant"><li class="yc" id="">Deodorants</li></a>
+                                <a href="https://www.myntra.com/men-belts-ties"><li class="yc" id="">Cufflinks&Pocket Squares</li></a>
+                                <a href="https://www.myntra.com/men-accessory-gift-set"><li class="yc" id="">Accessory Gift Sets</li></a>
+                                <a href="https://www.myntra.com/men-caps"><li class="yc" id="">Caps & Hats</li></a>
+                                <a href="https://www.myntra.com/men-gloves-mufflers-scarves"><li class="yc" id="">Mufflers,Scarves&Gloves</li></a>
+                                <a href="https://www.myntra.com/mobile-phone-cases"><li class="yc" id="">Phone Cases</li></a>
+                                <a href="https://www.myntra.com/men-jewellery"><li class="yc" id="">Rings & Wristwear</li></a>
+                                <a href="https://www.myntra.com/helmets"><li class="yc" id="">Helmets</li></a>
+                                <hr id="wa">
+                                <h3 id="yb">Bags & Backpacks</h3>
+                                <h3 id="yb">Luggages & Trolleys</h3>
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                    
+                </diV>
+            </div></div>
+                <div class="ll" id="zz"><div id="bb"><div id="bbb"><a href="#"><div id="bbbb"><h3>WOMEN</h3></div></a></div><diV id="hovnamewomen">
+
+                    <div id="zz">
+                        <div id="xk">
+                            
+                            <ul id="ya">
+                                <h3 id="va">Topwear</h3>
+                                <a href="https://www.myntra.com/men-tshirts"><li class="yc" id="">T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-casual-shirts"><li class="yc" id="">Casual Shirts</li></a>
+                                <a href="https://www.myntra.com/men-formal-shirts"><li class="yc" id="">Formal Shirts</li></a>
+                                <a href="https://www.myntra.com/men-sweatshirts"><li class="yc" id="">Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sweaters"><li class="yc" id="">Sweaters</li></a>
+                                <a href="https://www.myntra.com/men-jackets"><li class="yc" id="">Jackets</li></a>
+                                <a href="https://www.myntra.com/men-blazers"><li class="yc" id="">Blazers & Coats</li></a>
+                                <a href="https://www.myntra.com/men-suits"><li class="yc" id="">Suits</li></a>
+                                <a href="https://www.myntra.com/rain-jacket"><li class="yc" id="">Rain Jackets</li></a>
+                                <!-------------------------------------->
+                                
+                                <hr id="wa">
+                                <h3 id="va">Indian & Festive Wear</h3>
+                                <a href="https://www.myntra.com/men-kurtas"><li class="yd">Kurtas & Kurta Sets</li></a>
+                                <a href="https://www.myntra.com/sherwani"><li class="yd">Sherwanis</li></a>
+                                <a href="https://www.myntra.com/nehru-jackets"><li class="yd">Nehru Jackets</li></a>
+                                <a href="https://www.myntra.com/dhoti"><li class="yd">Dhotis</li></a>
+                            </ul>
+                        </div>
+                        <div id="xc">
+                            <ul id="ya">
+                                <h3 id="va">Bottomwear</h3>
+                                <a href="https://www.myntra.com/men-jeans"><li class="yd" id="">Jeans</li></a>
+                                <a href="https://www.myntra.com/men-casual-trousers"><li class="yd" id="">Casual Trousers</li></a>
+                                <a href="https://www.myntra.com/men-formal-trousers"><li class="yd" id="">Formal Trousers</li></a>
+                                <a href="https://www.myntra.com/mens-shorts"><li class="yd" id="">Shorts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants"><li class="yd" id="">Track Pants & Joggers</li></a>
+                                <hr id="wa">
+                                <h3 id="va">Innerwear & Sleepwear</h3>
+                                <a href="https://www.myntra.com/men-briefs-and-trunks"><li class="yd" id="">Briefs & Trunks</li></a>
+                                <a href="https://www.myntra.com/men-boxers"><li class="yd" id="">Boxers</li></a>
+                                <a href="https://www.myntra.com/men-innerwear-vests"><li class="yd" id="">Vests</li></a>
+                                <a href="https://www.myntra.com/men-nightwear"><li class="yd" id="">Sleepwear & Loungewear</li></a>
+                                <a href="https://www.myntra.com/men-thermals"><li class="yd" id="">Thermals</li></a>
+                                <hr id="wa">
+                                <h3 id="va">Plus Size</h3>
+                        </ul>
+                            </div>
+                        <div id="xd">
+                            <ul id="ya">
+                                <h3 id="va">Footwear</h3>
+                                <a href="https://www.myntra.com/men-casual-shoes"><li class="yc" id="">Casual Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-formal-shoes"><li class="yc" id="">Formal Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sneakers"><li class="yc" id="">Sneakers</li></a>
+                                <a href="https://www.myntra.com/men-sandals"><li class="yc" id="">Sandals & Floaters</li></a>
+                                <a href="https://www.myntra.com/men-flip-flops"><li class="yc" id="">Flip Flops</li></a>
+                                <a href="https://www.myntra.com/men-socks"><li class="yc" id="">Socks</li></a>
+                                <hr id="wa">
+                                <h3 id="va">Personal Care & Grooming</h3>
+                                <h3 id="va">Sunglasses & Frames</h3>
+                                <h3 id="va">Watches</h3>
+                            </ul>
+                        </div>
+                        <div id="xe">
+                            <ul id="ya">
+                                <h3 id="va">Sports & Active Wear</h3>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-sandals"><li class="yc" id="">Sports Sandals</li></a>
+                                <a href="https://www.myntra.com/men-sports-wear-tshirts"><li class="yc" id="">Active T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants-shorts"><li class="yc" id="">Track Pants & Shorts</li></a>
+                                <a href="https://www.myntra.com/men-tracksuits"><li class="yc" id="">Tracksuits</li></a>
+                                <a href="https://www.myntra.com/men-sports-jackets"><li class="yc" id="">Jackets & Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sports-accessories"><li class="yc" id="">Sports Accessories</li></a>
+                                <a href="https://www.myntra.com/men-swimwear"><li class="yc" id="">Swimwear</li></a>
+                                <hr id="wa">
+                                <h3 id="va">Gadgets</h3>
+                                <a href="https://www.myntra.com/smart-wearables"><li class="yc" id="">Smart Wearables</li></a>
+                                <a href="https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands"><li class="yc" id="">Fitness Gadgets</li></a>
+                                <a href="https://www.myntra.com/headphones"><li class="yc" id="">Headphones</li></a>
+                                <a href="https://www.myntra.com/speakers"><li class="yc" id="">Speakers</li></a>
+                        </ul>
+                        </div>
+                        <div id="xf">
+                            <ul id="ya">
+                                <h3 id="va">Fashion Accessories</h3>
+                                <a href="https://www.myntra.com/men-wallets"><li class="yc" id="">Wallets</li></a>
+                                <a href="https://www.myntra.com/men-belts"><li class="yc" id="">Belts</li></a>
+                                <a href="https://www.myntra.com/perfumes"><li class="yc" id="">Perfumes & Body Mists</li></a>
+                                <a href="https://www.myntra.com/trimmer"><li class="yc" id="">Trimmers</li></a>
+                                <a href="https://www.myntra.com/deodorant"><li class="yc" id="">Deodorants</li></a>
+                                <a href="https://www.myntra.com/men-belts-ties"><li class="yc" id="">Cufflinks&Pocket Squares</li></a>
+                                <a href="https://www.myntra.com/men-accessory-gift-set"><li class="yc" id="">Accessory Gift Sets</li></a>
+                                <a href="https://www.myntra.com/men-caps"><li class="yc" id="">Caps & Hats</li></a>
+                                <a href="https://www.myntra.com/men-gloves-mufflers-scarves"><li class="yc" id="">Mufflers,Scarves&Gloves</li></a>
+                                <a href="https://www.myntra.com/mobile-phone-cases"><li class="yc" id="">Phone Cases</li></a>
+                                <a href="https://www.myntra.com/men-jewellery"><li class="yc" id="">Rings & Wristwear</li></a>
+                                <a href="https://www.myntra.com/helmets"><li class="yc" id="">Helmets</li></a>
+                                <hr id="wa">
+                                <h3 id="va">Bags & Backpacks</h3>
+                                <h3 id="va">Luggages & Trolleys</h3>
+                        </div>
+                    </div>
+                </diV></div></div>
+                <div class="ll" id="xx"><div id="cc"><div id="ccc"><a href="#"><div id="cccc"><h3>KIDS</h3></div></div><diV id="hovnamekids">
+
+                    <div id="zz">
+                        <div id="xk">
+                            
+                            <ul id="ya">
+                                <h3 id="vb">Topwear</h3>
+                                <a href="https://www.myntra.com/men-tshirts"><li class="yc" id="">T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-casual-shirts"><li class="yc" id="">Casual Shirts</li></a>
+                                <a href="https://www.myntra.com/men-formal-shirts"><li class="yc" id="">Formal Shirts</li></a>
+                                <a href="https://www.myntra.com/men-sweatshirts"><li class="yc" id="">Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sweaters"><li class="yc" id="">Sweaters</li></a>
+                                <a href="https://www.myntra.com/men-jackets"><li class="yc" id="">Jackets</li></a>
+                                <a href="https://www.myntra.com/men-blazers"><li class="yc" id="">Blazers & Coats</li></a>
+                                <a href="https://www.myntra.com/men-suits"><li class="yc" id="">Suits</li></a>
+                                <a href="https://www.myntra.com/rain-jacket"><li class="yc" id="">Rain Jackets</li></a>
+                                <!-------------------------------------->
+                                
+                                <hr id="wa">
+                                <h3 id="vb">Indian & Festive Wear</h3>
+                                <a href="https://www.myntra.com/men-kurtas"><li class="yd">Kurtas & Kurta Sets</li></a>
+                                <a href="https://www.myntra.com/sherwani"><li class="yd">Sherwanis</li></a>
+                                <a href="https://www.myntra.com/nehru-jackets"><li class="yd">Nehru Jackets</li></a>
+                                <a href="https://www.myntra.com/dhoti"><li class="yd">Dhotis</li></a>
+                            </ul>
+                        </div>
+                        <div id="xc">
+                            <ul id="ya">
+                                <h3 id="vb">Bottomwear</h3>
+                                <a href="https://www.myntra.com/men-jeans"><li class="yd" id="">Jeans</li></a>
+                                <a href="https://www.myntra.com/men-casual-trousers"><li class="yd" id="">Casual Trousers</li></a>
+                                <a href="https://www.myntra.com/men-formal-trousers"><li class="yd" id="">Formal Trousers</li></a>
+                                <a href="https://www.myntra.com/mens-shorts"><li class="yd" id="">Shorts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants"><li class="yd" id="">Track Pants & Joggers</li></a>
+                                <hr id="wa">
+                                <h3 id="vb">Innerwear & Sleepwear</h3>
+                                <a href="https://www.myntra.com/men-briefs-and-trunks"><li class="yd" id="">Briefs & Trunks</li></a>
+                                <a href="https://www.myntra.com/men-boxers"><li class="yd" id="">Boxers</li></a>
+                                <a href="https://www.myntra.com/men-innerwear-vests"><li class="yd" id="">Vests</li></a>
+                                <a href="https://www.myntra.com/men-nightwear"><li class="yd" id="">Sleepwear & Loungewear</li></a>
+                                <a href="https://www.myntra.com/men-thermals"><li class="yd" id="">Thermals</li></a>
+                                <hr id="wa">
+                                <h3 id="vb">Plus Size</h3>
+                        </ul>
+                            </div>
+                        <div id="xd">
+                            <ul id="ya">
+                                <h3 id="vb">Footwear</h3>
+                                <a href="https://www.myntra.com/men-casual-shoes"><li class="yc" id="">Casual Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-formal-shoes"><li class="yc" id="">Formal Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sneakers"><li class="yc" id="">Sneakers</li></a>
+                                <a href="https://www.myntra.com/men-sandals"><li class="yc" id="">Sandals & Floaters</li></a>
+                                <a href="https://www.myntra.com/men-flip-flops"><li class="yc" id="">Flip Flops</li></a>
+                                <a href="https://www.myntra.com/men-socks"><li class="yc" id="">Socks</li></a>
+                                <hr id="wa">
+                                <h3 id="vb">Personal Care & Grooming</h3>
+                                <h3 id="vb">Sunglasses & Frames</h3>
+                                <h3 id="vb">Watches</h3>
+                            </ul>
+                        </div>
+                        <div id="xe">
+                            <ul id="ya">
+                                <h3 id="vb">Sports & Active Wear</h3>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-sandals"><li class="yc" id="">Sports Sandals</li></a>
+                                <a href="https://www.myntra.com/men-sports-wear-tshirts"><li class="yc" id="">Active T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants-shorts"><li class="yc" id="">Track Pants & Shorts</li></a>
+                                <a href="https://www.myntra.com/men-tracksuits"><li class="yc" id="">Tracksuits</li></a>
+                                <a href="https://www.myntra.com/men-sports-jackets"><li class="yc" id="">Jackets & Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sports-accessories"><li class="yc" id="">Sports Accessories</li></a>
+                                <a href="https://www.myntra.com/men-swimwear"><li class="yc" id="">Swimwear</li></a>
+                                <hr id="wa">
+                                <h3 id="vb">Gadgets</h3>
+                                <a href="https://www.myntra.com/smart-wearables"><li class="yc" id="">Smart Wearables</li></a>
+                                <a href="https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands"><li class="yc" id="">Fitness Gadgets</li></a>
+                                <a href="https://www.myntra.com/headphones"><li class="yc" id="">Headphones</li></a>
+                                <a href="https://www.myntra.com/speakers"><li class="yc" id="">Speakers</li></a>
+                        </ul>
+                        </div>
+                        <div id="xf">
+                            <ul id="ya">
+                                <h3 id="vb">Fashion Accessories</h3>
+                                <a href="https://www.myntra.com/men-wallets"><li class="yc" id="">Wallets</li></a>
+                                <a href="https://www.myntra.com/men-belts"><li class="yc" id="">Belts</li></a>
+                                <a href="https://www.myntra.com/perfumes"><li class="yc" id="">Perfumes & Body Mists</li></a>
+                                <a href="https://www.myntra.com/trimmer"><li class="yc" id="">Trimmers</li></a>
+                                <a href="https://www.myntra.com/deodorant"><li class="yc" id="">Deodorants</li></a>
+                                <a href="https://www.myntra.com/men-belts-ties"><li class="yc" id="">Cufflinks&Pocket Squares</li></a>
+                                <a href="https://www.myntra.com/men-accessory-gift-set"><li class="yc" id="">Accessory Gift Sets</li></a>
+                                <a href="https://www.myntra.com/men-caps"><li class="yc" id="">Caps & Hats</li></a>
+                                <a href="https://www.myntra.com/men-gloves-mufflers-scarves"><li class="yc" id="">Mufflers,Scarves&Gloves</li></a>
+                                <a href="https://www.myntra.com/mobile-phone-cases"><li class="yc" id="">Phone Cases</li></a>
+                                <a href="https://www.myntra.com/men-jewellery"><li class="yc" id="">Rings & Wristwear</li></a>
+                                <a href="https://www.myntra.com/helmets"><li class="yc" id="">Helmets</li></a>
+                                <hr id="wa">
+                                <h3 id="vb">Bags & Backpacks</h3>
+                                <h3 id="vb">Luggages & Trolleys</h3>
+                        </div>
+                    </div>
+                </diV></div></div>
+                <div class="ll" id="yy"><div id="dd"><div id="ddd"><a href="#"><div id="dddd"><h3>HOME&LIVING</h3></div></a></div><diV id="hovnamehome">
+
+                    <div id="zz">
+                        <div id="xk">
+                            
+                            <ul id="ya">
+                                <h3 id="vc">Topwear</h3>
+                                <a href="https://www.myntra.com/men-tshirts"><li class="yc" id="">T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-casual-shirts"><li class="yc" id="">Casual Shirts</li></a>
+                                <a href="https://www.myntra.com/men-formal-shirts"><li class="yc" id="">Formal Shirts</li></a>
+                                <a href="https://www.myntra.com/men-sweatshirts"><li class="yc" id="">Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sweaters"><li class="yc" id="">Sweaters</li></a>
+                                <a href="https://www.myntra.com/men-jackets"><li class="yc" id="">Jackets</li></a>
+                                <a href="https://www.myntra.com/men-blazers"><li class="yc" id="">Blazers & Coats</li></a>
+                                <a href="https://www.myntra.com/men-suits"><li class="yc" id="">Suits</li></a>
+                                <a href="https://www.myntra.com/rain-jacket"><li class="yc" id="">Rain Jackets</li></a>
+                                <!-------------------------------------->
+                                
+                                <hr id="wa">
+                                <h3 id="vc">Indian & Festive Wear</h3>
+                                <a href="https://www.myntra.com/men-kurtas"><li class="yd">Kurtas & Kurta Sets</li></a>
+                                <a href="https://www.myntra.com/sherwani"><li class="yd">Sherwanis</li></a>
+                                <a href="https://www.myntra.com/nehru-jackets"><li class="yd">Nehru Jackets</li></a>
+                                <a href="https://www.myntra.com/dhoti"><li class="yd">Dhotis</li></a>
+                            </ul>
+                        </div>
+                        <div id="xc">
+                            <ul id="ya">
+                                <h3 id="vc">Bottomwear</h3>
+                                <a href="https://www.myntra.com/men-jeans"><li class="yd" id="">Jeans</li></a>
+                                <a href="https://www.myntra.com/men-casual-trousers"><li class="yd" id="">Casual Trousers</li></a>
+                                <a href="https://www.myntra.com/men-formal-trousers"><li class="yd" id="">Formal Trousers</li></a>
+                                <a href="https://www.myntra.com/mens-shorts"><li class="yd" id="">Shorts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants"><li class="yd" id="">Track Pants & Joggers</li></a>
+                                <hr id="wa">
+                                <h3 id="vc">Innerwear & Sleepwear</h3>
+                                <a href="https://www.myntra.com/men-briefs-and-trunks"><li class="yd" id="">Briefs & Trunks</li></a>
+                                <a href="https://www.myntra.com/men-boxers"><li class="yd" id="">Boxers</li></a>
+                                <a href="https://www.myntra.com/men-innerwear-vests"><li class="yd" id="">Vests</li></a>
+                                <a href="https://www.myntra.com/men-nightwear"><li class="yd" id="">Sleepwear & Loungewear</li></a>
+                                <a href="https://www.myntra.com/men-thermals"><li class="yd" id="">Thermals</li></a>
+                                <hr id="wa">
+                                <h3 id="vc">Plus Size</h3>
+                        </ul>
+                            </div>
+                        <div id="xd">
+                            <ul id="ya">
+                                <h3 id="vc">Footwear</h3>
+                                <a href="https://www.myntra.com/men-casual-shoes"><li class="yc" id="">Casual Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-formal-shoes"><li class="yc" id="">Formal Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sneakers"><li class="yc" id="">Sneakers</li></a>
+                                <a href="https://www.myntra.com/men-sandals"><li class="yc" id="">Sandals & Floaters</li></a>
+                                <a href="https://www.myntra.com/men-flip-flops"><li class="yc" id="">Flip Flops</li></a>
+                                <a href="https://www.myntra.com/men-socks"><li class="yc" id="">Socks</li></a>
+                                <hr id="wa">
+                                <h3 id="vc">Personal Care & Grooming</h3>
+                                <h3 id="vc">Sunglasses & Frames</h3>
+                                <h3 id="vc">Watches</h3>
+                            </ul>
+                        </div>
+                        <div id="xe">
+                            <ul id="ya">
+                                <h3 id="vc">Sports & Active Wear</h3>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-sandals"><li class="yc" id="">Sports Sandals</li></a>
+                                <a href="https://www.myntra.com/men-sports-wear-tshirts"><li class="yc" id="">Active T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants-shorts"><li class="yc" id="">Track Pants & Shorts</li></a>
+                                <a href="https://www.myntra.com/men-tracksuits"><li class="yc" id="">Tracksuits</li></a>
+                                <a href="https://www.myntra.com/men-sports-jackets"><li class="yc" id="">Jackets & Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sports-accessories"><li class="yc" id="">Sports Accessories</li></a>
+                                <a href="https://www.myntra.com/men-swimwear"><li class="yc" id="">Swimwear</li></a>
+                                <hr id="wa">
+                                <h3 id="vc">Gadgets</h3>
+                                <a href="https://www.myntra.com/smart-wearables"><li class="yc" id="">Smart Wearables</li></a>
+                                <a href="https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands"><li class="yc" id="">Fitness Gadgets</li></a>
+                                <a href="https://www.myntra.com/headphones"><li class="yc" id="">Headphones</li></a>
+                                <a href="https://www.myntra.com/speakers"><li class="yc" id="">Speakers</li></a>
+                        </ul>
+                        </div>
+                        <div id="xf">
+                            <ul id="ya">
+                                <h3 id="vc">Fashion Accessories</h3>
+                                <a href="https://www.myntra.com/men-wallets"><li class="yc" id="">Wallets</li></a>
+                                <a href="https://www.myntra.com/men-belts"><li class="yc" id="">Belts</li></a>
+                                <a href="https://www.myntra.com/perfumes"><li class="yc" id="">Perfumes & Body Mists</li></a>
+                                <a href="https://www.myntra.com/trimmer"><li class="yc" id="">Trimmers</li></a>
+                                <a href="https://www.myntra.com/deodorant"><li class="yc" id="">Deodorants</li></a>
+                                <a href="https://www.myntra.com/men-belts-ties"><li class="yc" id="">Cufflinks&Pocket Squares</li></a>
+                                <a href="https://www.myntra.com/men-accessory-gift-set"><li class="yc" id="">Accessory Gift Sets</li></a>
+                                <a href="https://www.myntra.com/men-caps"><li class="yc" id="">Caps & Hats</li></a>
+                                <a href="https://www.myntra.com/men-gloves-mufflers-scarves"><li class="yc" id="">Mufflers,Scarves&Gloves</li></a>
+                                <a href="https://www.myntra.com/mobile-phone-cases"><li class="yc" id="">Phone Cases</li></a>
+                                <a href="https://www.myntra.com/men-jewellery"><li class="yc" id="">Rings & Wristwear</li></a>
+                                <a href="https://www.myntra.com/helmets"><li class="yc" id="">Helmets</li></a>
+                                <hr id="wa">
+                                <h3 id="vc">Bags & Backpacks</h3>
+                                <h3 id="vc">Luggages & Trolleys</h3>
+                        </div>
+                    </div>
+
+                </diV></div></div>
+                <div class="ll" id="zb"><div id="ee"><div id="eee"><a href="#"><div id="eeee"><h3>BEAUTY</h3></div></a></div><diV id="hovnamebeauty">
+
+                    <div id="zz">
+                        <div id="xk">
+                            
+                            <ul id="ya">
+                                <h3 id="vd">Topwear</h3>
+                                <a href="https://www.myntra.com/men-tshirts"><li class="yc" id="">T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-casual-shirts"><li class="yc" id="">Casual Shirts</li></a>
+                                <a href="https://www.myntra.com/men-formal-shirts"><li class="yc" id="">Formal Shirts</li></a>
+                                <a href="https://www.myntra.com/men-sweatshirts"><li class="yc" id="">Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sweaters"><li class="yc" id="">Sweaters</li></a>
+                                <a href="https://www.myntra.com/men-jackets"><li class="yc" id="">Jackets</li></a>
+                                <a href="https://www.myntra.com/men-blazers"><li class="yc" id="">Blazers & Coats</li></a>
+                                <a href="https://www.myntra.com/men-suits"><li class="yc" id="">Suits</li></a>
+                                <a href="https://www.myntra.com/rain-jacket"><li class="yc" id="">Rain Jackets</li></a>
+                                <!-------------------------------------->
+                                
+                                <hr id="wa">
+                                <h3 id="vd">Indian & Festive Wear</h3>
+                                <a href="https://www.myntra.com/men-kurtas"><li class="yd">Kurtas & Kurta Sets</li></a>
+                                <a href="https://www.myntra.com/sherwani"><li class="yd">Sherwanis</li></a>
+                                <a href="https://www.myntra.com/nehru-jackets"><li class="yd">Nehru Jackets</li></a>
+                                <a href="https://www.myntra.com/dhoti"><li class="yd">Dhotis</li></a>
+                            </ul>
+                        </div>
+                        <div id="xc">
+                            <ul id="ya">
+                                <h3 id="vd">Bottomwear</h3>
+                                <a href="https://www.myntra.com/men-jeans"><li class="yd" id="">Jeans</li></a>
+                                <a href="https://www.myntra.com/men-casual-trousers"><li class="yd" id="">Casual Trousers</li></a>
+                                <a href="https://www.myntra.com/men-formal-trousers"><li class="yd" id="">Formal Trousers</li></a>
+                                <a href="https://www.myntra.com/mens-shorts"><li class="yd" id="">Shorts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants"><li class="yd" id="">Track Pants & Joggers</li></a>
+                                <hr id="wa">
+                                <h3 id="vd">Innerwear & Sleepwear</h3>
+                                <a href="https://www.myntra.com/men-briefs-and-trunks"><li class="yd" id="">Briefs & Trunks</li></a>
+                                <a href="https://www.myntra.com/men-boxers"><li class="yd" id="">Boxers</li></a>
+                                <a href="https://www.myntra.com/men-innerwear-vests"><li class="yd" id="">Vests</li></a>
+                                <a href="https://www.myntra.com/men-nightwear"><li class="yd" id="">Sleepwear & Loungewear</li></a>
+                                <a href="https://www.myntra.com/men-thermals"><li class="yd" id="">Thermals</li></a>
+                                <hr id="wa">
+                                <h3 id="vd">Plus Size</h3>
+                        </ul>
+                            </div>
+                        <div id="xd">
+                            <ul id="ya">
+                                <h3 id="vd">Footwear</h3>
+                                <a href="https://www.myntra.com/men-casual-shoes"><li class="yc" id="">Casual Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-formal-shoes"><li class="yc" id="">Formal Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sneakers"><li class="yc" id="">Sneakers</li></a>
+                                <a href="https://www.myntra.com/men-sandals"><li class="yc" id="">Sandals & Floaters</li></a>
+                                <a href="https://www.myntra.com/men-flip-flops"><li class="yc" id="">Flip Flops</li></a>
+                                <a href="https://www.myntra.com/men-socks"><li class="yc" id="">Socks</li></a>
+                                <hr id="wa">
+                                <h3 id="vd">Personal Care & Grooming</h3>
+                                <h3 id="vd">Sunglasses & Frames</h3>
+                                <h3 id="vd">Watches</h3>
+                            </ul>
+                        </div>
+                        <div id="xe">
+                            <ul id="ya">
+                                <h3 id="vd">Sports & Active Wear</h3>
+                                <a href="https://www.myntra.com/men-sports-shoes"><li class="yc" id="">Sports Shoes</li></a>
+                                <a href="https://www.myntra.com/men-sports-sandals"><li class="yc" id="">Sports Sandals</li></a>
+                                <a href="https://www.myntra.com/men-sports-wear-tshirts"><li class="yc" id="">Active T-Shirts</li></a>
+                                <a href="https://www.myntra.com/men-trackpants-shorts"><li class="yc" id="">Track Pants & Shorts</li></a>
+                                <a href="https://www.myntra.com/men-tracksuits"><li class="yc" id="">Tracksuits</li></a>
+                                <a href="https://www.myntra.com/men-sports-jackets"><li class="yc" id="">Jackets & Sweatshirts</li></a>
+                                <a href="https://www.myntra.com/men-sports-accessories"><li class="yc" id="">Sports Accessories</li></a>
+                                <a href="https://www.myntra.com/men-swimwear"><li class="yc" id="">Swimwear</li></a>
+                                <hr id="wa">
+                                <h3 id="vd">Gadgets</h3>
+                                <a href="https://www.myntra.com/smart-wearables"><li class="yc" id="">Smart Wearables</li></a>
+                                <a href="https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands"><li class="yc" id="">Fitness Gadgets</li></a>
+                                <a href="https://www.myntra.com/headphones"><li class="yc" id="">Headphones</li></a>
+                                <a href="https://www.myntra.com/speakers"><li class="yc" id="">Speakers</li></a>
+                        </ul>
+                        </div>
+                        <div id="xf">
+                            <ul id="ya">
+                                <h3 id="vd">Fashion Accessories</h3>
+                                <a href="https://www.myntra.com/men-wallets"><li class="yc" id="">Wallets</li></a>
+                                <a href="https://www.myntra.com/men-belts"><li class="yc" id="">Belts</li></a>
+                                <a href="https://www.myntra.com/perfumes"><li class="yc" id="">Perfumes & Body Mists</li></a>
+                                <a href="https://www.myntra.com/trimmer"><li class="yc" id="">Trimmers</li></a>
+                                <a href="https://www.myntra.com/deodorant"><li class="yc" id="">Deodorants</li></a>
+                                <a href="https://www.myntra.com/men-belts-ties"><li class="yc" id="">Cufflinks&Pocket Squares</li></a>
+                                <a href="https://www.myntra.com/men-accessory-gift-set"><li class="yc" id="">Accessory Gift Sets</li></a>
+                                <a href="https://www.myntra.com/men-caps"><li class="yc" id="">Caps & Hats</li></a>
+                                <a href="https://www.myntra.com/men-gloves-mufflers-scarves"><li class="yc" id="">Mufflers,Scarves&Gloves</li></a>
+                                <a href="https://www.myntra.com/mobile-phone-cases"><li class="yc" id="">Phone Cases</li></a>
+                                <a href="https://www.myntra.com/men-jewellery"><li class="yc" id="">Rings & Wristwear</li></a>
+                                <a href="https://www.myntra.com/helmets"><li class="yc" id="">Helmets</li></a>
+                                <hr id="wa">
+                                <h3 id="vd">Bags & Backpacks</h3>
+                                <h3 id="vd">Luggages & Trolleys</h3>
+                        </div>
+                    </div>
+                </diV></div></div>
+                <div class="ll" id="zc"><div id="ff"><div id="fff"><a href="#"><div id="ffff"><h3>STUDIO</h3></div></a></div><diV id="hovnamebeauty"></diV></div></div>
+            </div>
+            <div id="search">
+               <div id="se">
+                <div id="mir"><img src="../../../../Wallpaper/search.png" id="imgmir"></div>
+                <div id="see"><input type="search" id="iii" placeholder="search for products,brands and more"></div>
+               </div>
+            </div>
+            <div id="user"><div id="parts">
+                <!-- <div class="lm"><div><div></div></div></div> -->
+                <div class="lm"><div id="p"><a href="#"><div id="q"><div id="r"><img id="userimg" src="../../../../Wallpaper/icons8-user-96.png"><h5 id="namepos">Profile</h5></div></div></a><diV id="fof"></diV></div></div>
+                <div class="lm"><a href="#"><div id="phh"><img src="../../../../Wallpaper/like.png" id="like"><h5>Like</h5></div></a></div>
+                <div class="lm"><a href="#"><div id="phh"><img src="../../../../Wallpaper/icons8-shopping-bag-32.png"><h5>Bag</h5></div></a></div>
+            </div>
+        </div>
+    </div>
+    <div id="seconddiv">
+        <video src="../../../../videos/pexels-pavel-danilyuk-8626772-1920x1080-25fps.mp4" autoplay muted loop id="vid"></video>
+    </div>
+    </div>
+</body>
+</html>
